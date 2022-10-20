@@ -1,0 +1,34 @@
+/*Elements*/
+body {
+    background-color: rgb(30, 23, 61);
+    color: beige;
+    font-family: monospace;
+}
+::selection {
+    background-color: beige;
+    color: rgb(30, 23, 61)
+}
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    ;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+}
+a {
+    color: beige;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+}
+/*Class*/
+.social {
+    text-align: center;
+}
