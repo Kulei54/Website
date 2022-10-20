@@ -24,11 +24,16 @@ p {
 a {
     color: beige;
 }
+hr {
+    border-color: beige;
+    color: beige;
+}
 footer {
     text-align: center;
     font-style: italic;
 }
 /*Class*/
-.social {
-    text-align: center;
+
+.projects, .social {
+    color:rgb(216, 174, 255);
 }
