@@ -1,6 +1,5 @@
 body {
     background-color: rgb(30, 23, 61);
-    color: beige;
     font-family: monospace;
 }
 ::selection {
@@ -11,10 +10,12 @@ h1 {
     font-weight: bold;
     font-size: 35px;
     text-align: center;
+    color: beige;
 }
 h2 {
     text-align: center;
     font-weight: bold;
+    color: beige;
 }
 p {
     text-align: center;
@@ -34,4 +35,14 @@ hr {
 footer {
     text-align: center;
     font-style: italic;
+}
+button {
+    color: rgb(30, 23, 61);
+    background-color: rgb(216, 174, 255);
+    text-align: center;
+    font-size: 25px;
+}
+button:hover {
+    color: beige;
+    background-color: rgb(30, 23, 61);
 }
