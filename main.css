@@ -1,3 +1,5 @@
+/* Elements */
+
 body {
     background-color: rgb(30, 23, 61);
     font-family: monospace;
@@ -31,6 +33,7 @@ a:hover {
 hr {
     border-color: beige;
     color: beige;
+    width: 100%;
 }
 footer {
     text-align: center;
@@ -39,10 +42,20 @@ footer {
 button {
     color: rgb(30, 23, 61);
     background-color: rgb(216, 174, 255);
+    border-color: rgb(216, 174, 255);
     text-align: center;
     font-size: 25px;
 }
 button:hover {
     color: beige;
     background-color: rgb(68, 50, 148);
+    border-color: rgb(68, 50, 148);
+}
+
+/* Class */
+
+ .maindiv {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
