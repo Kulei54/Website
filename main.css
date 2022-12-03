@@ -69,3 +69,6 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
+.description {
+    font-weight: bold;
+}
